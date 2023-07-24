@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import './../styles/App.css';
 
 const App = () => {
-  let [click,setclick]=useState("");
+  let [click,setclick]=useState(0);
 
   return (
     <div>
